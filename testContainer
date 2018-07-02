@@ -1,0 +1,8 @@
+bootstrap: docker
+From: ubuntu:18.04
+
+%post
+  apt -y update
+  apt -y install python-pip
+  apt -y install python3-minimal
+  apt -y install python3-pip
